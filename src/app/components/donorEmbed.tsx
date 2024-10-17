@@ -11,6 +11,7 @@ export default function DonateEmbed() {
         data-organizationid='41264'
         strategy='lazyOnload'
         onLoad={() => console.log('Script loaded')}
+        onReady={() => console.log('Script ready')}
       />
     </>
   )
